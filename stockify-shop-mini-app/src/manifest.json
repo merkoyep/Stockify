@@ -1,0 +1,13 @@
+{
+  "name": "stockify-shopMiniApp",
+  "features": [
+    "FULL_BLEED_VIEWER",
+    "STANDALONE"
+  ],
+  "handle": "stockify-shopminiapp",
+  "shopify_apps": {
+    "development": [
+      221946806273
+    ]
+  }
+}
