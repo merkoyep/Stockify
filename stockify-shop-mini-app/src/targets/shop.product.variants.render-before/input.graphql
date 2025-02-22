@@ -12,6 +12,11 @@ query ProductVariantsRenderBefore {
         }
       }
     }
+    options {
+      id
+      name
+      values
+    }
   }
   shop {
     id
