@@ -1,5 +1,6 @@
 import { DocumentNode } from "graphql-typed";
 import { TypedDocumentNode } from "@graphql-typed-document-node/core";
+
 export namespace ProductVariantsRenderBeforeQueryPartialData {
   export interface Product {
     __typename?: "Product" | null;
@@ -10,11 +11,28 @@ export namespace ProductVariantsRenderBeforeQueryPartialData {
     __typename?: "Shop" | null;
     id?: string | null;
   }
+  export interface Location {
+    __typename?: "Location" | null;
+    id?: string | null;
+    name?: string | null;
+    inventoryLevels?: {
+      edges?: Array<{
+        node?: {
+          id?: string | null;
+          quantities?: Array<{
+            quantity?: number | null;
+          }> | null;
+        } | null;
+      }> | null;
+    } | null;
+  }
 }
+
 export interface ProductVariantsRenderBeforeQueryPartialData {
   product?: ProductVariantsRenderBeforeQueryPartialData.Product | null;
   shop?: ProductVariantsRenderBeforeQueryPartialData.Shop | null;
 }
+
 export namespace ProductVariantsRenderBeforeQueryData {
   export interface Product {
     __typename: "Product";
@@ -25,12 +43,41 @@ export namespace ProductVariantsRenderBeforeQueryData {
     __typename: "Shop";
     id: string;
   }
+  export interface Location {
+    __typename: "Location";
+    id: string;
+    name: string;
+    address: {
+      address1: string;
+      address2: string;
+      city: string;
+      country: string;
+    };
+    inventoryLevels: {
+      edges: Array<{
+        node: {
+          id: string;
+          quantities: Array<{
+            quantity: number;
+          }>;
+        };
+      }>;
+    };
+  }
 }
+
 export interface ProductVariantsRenderBeforeQueryData {
   product?: ProductVariantsRenderBeforeQueryData.Product | null;
   shop?: ProductVariantsRenderBeforeQueryData.Shop | null;
+  locations?: {
+    edges: Array<{
+      node: ProductVariantsRenderBeforeQueryData.Location;
+    }>;
+  } | null;
 }
+
 declare const document: DocumentNode<ProductVariantsRenderBeforeQueryData, never, ProductVariantsRenderBeforeQueryPartialData> & TypedDocumentNode<ProductVariantsRenderBeforeQueryData, {
   [key: string]: never;
 }>;
+
 export default document;
