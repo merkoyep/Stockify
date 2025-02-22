@@ -6,6 +6,10 @@ query ProductVariantsRenderBefore {
       nodes{
         id
         title
+        selectedOptions{
+          name
+          value
+        }
       }
     }
   }
