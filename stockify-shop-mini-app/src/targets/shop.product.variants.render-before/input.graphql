@@ -6,4 +6,27 @@ query ProductVariantsRenderBefore {
   shop {
     id
   }
+  locations(first: 250) {
+    edges {
+      node {
+        name
+        address {
+          address1
+          address2
+          city
+          country
+        }
+        inventoryLevels(first: 250) {
+          edges {
+            node {
+              id
+              quantities(names: ["available"]) {
+                quantity
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
