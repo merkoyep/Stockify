@@ -14,7 +14,7 @@ export function Render({
     openSheet(
     () => 
       <InventoryDisplaySheet
-        data={extensionData}
+        data={{extensionData}}
       />
     )
   }

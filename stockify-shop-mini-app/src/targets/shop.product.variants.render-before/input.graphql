@@ -2,6 +2,12 @@ query ProductVariantsRenderBefore {
   product {
     id
     title
+    variants(first: 100) {
+      nodes{
+        id
+        title
+      }
+    }
   }
   shop {
     id

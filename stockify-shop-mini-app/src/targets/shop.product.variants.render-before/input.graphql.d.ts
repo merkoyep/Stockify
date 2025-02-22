@@ -1,10 +1,20 @@
 import { DocumentNode } from "graphql-typed";
 import { TypedDocumentNode } from "@graphql-typed-document-node/core";
 export namespace ProductVariantsRenderBeforeQueryPartialData {
+  export interface ProductVariantsNodes {
+    __typename?: "ProductVariant" | null;
+    id?: string | null;
+    title?: string | null;
+  }
+  export interface ProductVariants {
+    __typename?: "ProductVariantConnection" | null;
+    nodes?: (ProductVariantsRenderBeforeQueryPartialData.ProductVariantsNodes | null)[] | null;
+  }
   export interface Product {
     __typename?: "Product" | null;
     id?: string | null;
     title?: string | null;
+    variants?: ProductVariantsRenderBeforeQueryPartialData.ProductVariants | null;
   }
   export interface Shop {
     __typename?: "Shop" | null;
@@ -16,10 +26,20 @@ export interface ProductVariantsRenderBeforeQueryPartialData {
   shop?: ProductVariantsRenderBeforeQueryPartialData.Shop | null;
 }
 export namespace ProductVariantsRenderBeforeQueryData {
+  export interface ProductVariantsNodes {
+    __typename: "ProductVariant";
+    id: string;
+    title: string;
+  }
+  export interface ProductVariants {
+    __typename: "ProductVariantConnection";
+    nodes: ProductVariantsRenderBeforeQueryData.ProductVariantsNodes[];
+  }
   export interface Product {
     __typename: "Product";
     id: string;
     title: string;
+    variants: ProductVariantsRenderBeforeQueryData.ProductVariants;
   }
   export interface Shop {
     __typename: "Shop";
