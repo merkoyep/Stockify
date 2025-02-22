@@ -125,13 +125,6 @@ export function HomeScreen() {
             Ready for more? Let&apos;s explore native capabilities in the
             screen.
           </Text>
-          <Button
-            text="Next"
-            size="l"
-            onPress={() => {
-              navigation.navigate('GettingStarted.NativeFeatures')
-            }}
-          />
         </Box>
       </ScrollView>
     </SafeAreaView>
