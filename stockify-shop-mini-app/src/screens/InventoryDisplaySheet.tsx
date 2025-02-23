@@ -1,7 +1,7 @@
 import {Sheet} from '@shopify/shop-minis-platform-sdk/src/components/Sheet/Sheet'
 import {ProductLocations} from '../Data/ProductLocations'
 import React, {useState, useMemo} from 'react'
-import {Text, View, HStack} from 'react-native'
+import {View} from 'react-native'
 import {Picker} from '@react-native-picker/picker'
 
 // interface Inventory{
