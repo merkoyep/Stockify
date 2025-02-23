@@ -18,7 +18,35 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480", 
+                              "name": "Montreal"
                             },
                             "quantities": [
                               {
@@ -52,12 +80,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 20
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver" 
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 15
                               }
                             ]
                           }
@@ -86,12 +128,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480",
+                              "name": "Montreal"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available", 
+                                "quantity": 25
                               }
                             ]
                           }
@@ -120,12 +176,40 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 30
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260481",
+                              "name": "Calgary"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 20
                               }
                             ]
                           }
@@ -154,12 +238,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260481",
+                              "name": "Calgary"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 35
                               }
                             ]
                           }
@@ -188,12 +286,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 10
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 8
                               }
                             ]
                           }
@@ -212,12 +324,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 10
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480",
+                              "name": "Montreal"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 12
                               }
                             ]
                           }
@@ -236,12 +362,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 10
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260481",
+                              "name": "Calgary"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 15
                               }
                             ]
                           }
@@ -270,12 +410,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 25
                               }
                             ]
                           }
@@ -304,7 +458,21 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480",
+                              "name": "Montreal"
                             },
                             "quantities": [
                               {
@@ -338,12 +506,40 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
-                                "quantity": 10
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260481",
+                              "name": "Calgary"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
                               }
                             ]
                           }
@@ -372,12 +568,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480",
+                              "name": "Montreal"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 30
                               }
                             ]
                           }
@@ -406,7 +616,21 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
                             },
                             "quantities": [
                               {
@@ -430,7 +654,21 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480",
+                              "name": "Montreal"
                             },
                             "quantities": [
                               {
@@ -454,7 +692,21 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260481",
+                              "name": "Calgary"
                             },
                             "quantities": [
                               {
@@ -478,7 +730,21 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
                             },
                             "quantities": [
                               {
@@ -512,12 +778,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 10
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 15
                               }
                             ]
                           }
@@ -536,12 +816,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 10
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480",
+                              "name": "Montreal"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 8
                               }
                             ]
                           }
@@ -560,12 +854,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 10
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260481",
+                              "name": "Calgary"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 12
                               }
                             ]
                           }
@@ -584,12 +892,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 10
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 7
                               }
                             ]
                           }
@@ -608,12 +930,26 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 10
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480",
+                              "name": "Montreal"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 13
                               }
                             ]
                           }
@@ -642,7 +978,7 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
@@ -662,6 +998,20 @@
                               {
                                 "name": "available",
                                 "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260479",
+                              "name": "Vancouver"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 25
                               }
                             ]
                           }
@@ -690,12 +1040,40 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
                                 "name": "available",
                                 "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260480",
+                              "name": "Montreal"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 35
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260481",
+                              "name": "Calgary"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 20
                               }
                             ]
                           }
@@ -712,54 +1090,6 @@
           "node": {
             "id": "gid://shopify/Product/11815707836734",
             "title": "The Multi-managed Snowboard",
-            "variants": {
-              "nodes": [
-                {
-                  "id": "gid://shopify/ProductVariant/51364883333438",
-                  "inventoryItem": {
-                    "id": "gid://shopify/InventoryItem/53380502847806",
-                    "inventoryLevels": {
-                      "edges": [
-                        {
-                          "node": {
-                            "location": {
-                              "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
-                            },
-                            "quantities": [
-                              {
-                                "name": "available",
-                                "quantity": 50
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "node": {
-                            "location": {
-                              "id": "gid://shopify/Location/104423326014",
-                              "name": "Snow City Warehouse"
-                            },
-                            "quantities": [
-                              {
-                                "name": "available",
-                                "quantity": 50
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  }
-                }
-              ]
-            }
-          }
-        },
-        {
-          "node": {
-            "id": "gid://shopify/Product/11815707869502",
-            "title": "The 3p Fulfilled Snowboard",
             "variants": {
               "nodes": [
                 {
@@ -806,7 +1136,7 @@
                           "node": {
                             "location": {
                               "id": "gid://shopify/Location/104423260478",
-                              "name": "Shop location"
+                              "name": "Toronto"
                             },
                             "quantities": [
                               {
