@@ -8,6 +8,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-picker/picker": "^2.11.0",
     "@shopify/shop-minis-platform-sdk": "0.1.136",
     "@shopify/shop-minis-runtime": "0.0.135",
     "@shopify/shop-minis-ui-extensions": "0.0.20"

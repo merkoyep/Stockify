@@ -6,48 +6,60 @@ interface Location {
   quantity: number;
 }
 
-export const useInventoryLocations = (productId: string) => {
+interface Variant {
+  id: string;
+  title: string;
+}
+
+export const useInventoryLocations = (variantId: string) => {
   const getLocations = useCallback((): Location[] => {
     const locations: Location[] = [];
     
-    // Find the product in the data
-    const product = inventoryData.data.products.edges.find(edge => 
-      edge.node.id === productId
-    );
+    // Find the variant in the data
+    let foundVariant;
+    inventoryData.data.products.edges.forEach(edge => {
+      const variant = edge.node.variants.nodes.find(v => v.id === variantId);
+      if (variant) {
+        foundVariant = variant;
+      }
+    });
 
-    if (product) {
-      // Get inventory levels for each variant
-      product.node.variants.nodes.forEach(variant => {
-        variant.inventoryItem.inventoryLevels.edges.forEach(edge => {
-          const locationData = edge.node;
-          const quantity = locationData.quantities[0].quantity;
+    if (foundVariant) {
+      // Get inventory levels for the variant
+      foundVariant.inventoryItem.inventoryLevels.edges.forEach(edge => {
+        const locationData = edge.node;
+        const quantity = locationData.quantities[0].quantity;
 
-          // Only add locations with available inventory
-          if (quantity > 0) {
-            // Check if location already exists in array
-            const existingLocation = locations.find(loc => 
-              loc.name === locationData.location.name
-            );
-
-            if (existingLocation) {
-              // Add quantities if location exists
-              existingLocation.quantity += quantity;
-            } else {
-              // Add new location if it doesn't exist
-              locations.push({
-                name: locationData.location.name,
-                quantity: quantity
-              });
-            }
-          }
-        });
+        // Only add locations with available inventory
+        if (quantity > 0) {
+          locations.push({
+            name: locationData.location.name,
+            quantity: quantity
+          });
+        }
       });
     }
 
     return locations;
-  }, [productId]);
+  }, [variantId]);
+
+  const getVariants = useCallback((): Variant[] => {
+    const variants: Variant[] = [];
+    
+    inventoryData.data.products.edges.forEach(edge => {
+      edge.node.variants.nodes.forEach(variant => {
+        variants.push({
+          id: variant.id,
+          title: variant.title || edge.node.title // Fallback to product title if variant title not available
+        });
+      });
+    });
+
+    return variants;
+  }, []);
 
   return {
-    getLocations
+    getLocations,
+    getVariants
   };
 };
