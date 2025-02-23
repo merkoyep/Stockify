@@ -1,0 +1,294 @@
+{
+  "data": {
+    "locations": {
+      "edges": [
+        {
+          "node": {
+            "name": "150 Elgin Street",
+            "address": {
+              "city": "Ottawa",
+              "country": "Canada"
+            },
+            "inventoryLevels": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565354609",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565387377",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565518449",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565551217",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565583985",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565616753",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565649521",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565682289",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565715057",
+                    "quantities": [
+                      {
+                        "quantity": 20
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565747825",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565780593",
+                    "quantities": [
+                      {
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565813361",
+                    "quantities": [
+                      {
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565846129",
+                    "quantities": [
+                      {
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565878897",
+                    "quantities": [
+                      {
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565911665",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565944433",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120565977201",
+                    "quantities": [
+                      {
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120566009969",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120566075505",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120566108273",
+                    "quantities": [
+                      {
+                        "quantity": 0
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120566206577",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120566337649",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120566370417",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120566403185",
+                    "quantities": [
+                      {
+                        "quantity": 10
+                      }
+                    ]
+                  }
+                },
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274653809?inventory_item_id=43120566435953",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "name": "My Custom Location",
+            "address": {
+              "city": "Toronto",
+              "country": "Canada"
+            },
+            "inventoryLevels": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "gid://shopify/InventoryLevel/99274686577?inventory_item_id=43120565944433",
+                    "quantities": [
+                      {
+                        "quantity": 50
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

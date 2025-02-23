@@ -2,7 +2,7 @@
 import { Sheet } from '@shopify/shop-minis-platform-sdk/src/components/Sheet/Sheet'
 import React from 'react'
 import {Text} from 'react-native'
-
+import { ProductLocations } from '../Data/ProductLocations'
 
 export function InventoryDisplaySheet({
   data,
@@ -13,6 +13,7 @@ export function InventoryDisplaySheet({
         <Text>Product Data: {JSON.stringify(extensionData.product)}</Text>
         <Text>Product:{JSON.stringify(extensionData.product.id)}</Text>
         <Text>Variants:{JSON.stringify(extensionData.product.variants.id)}</Text>
+        <ProductLocations productId={extensionData.product.id} />
     </Sheet>
   )
 }
