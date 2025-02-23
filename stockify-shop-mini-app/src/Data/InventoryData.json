@@ -1,24 +1,35 @@
 {
   "data": {
-    "locations": {
+    "products": {
       "edges": [
         {
           "node": {
-            "name": "My Custom Location",
-            "address": {
-              "city": "Toronto",
-              "country": "Canada"
-            },
-            "inventoryLevels": {
-              "edges": [
+            "id": "gid://shopify/Product/11815707345214",
+            "title": "The Inventory Not Tracked Snowboard",
+            "variants": {
+              "nodes": [
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883558718?inventory_item_id=53380502618430",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364882579774",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502094142",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 }
               ]
@@ -27,278 +38,795 @@
         },
         {
           "node": {
-            "name": "Shop location",
-            "address": {
-              "city": null,
-              "country": "Canada"
-            },
-            "inventoryLevels": {
-              "edges": [
+            "id": "gid://shopify/Product/11815707377982",
+            "title": "The Draft Snowboard",
+            "variants": {
+              "nodes": [
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502094142",
-                    "quantities": [
-                      {
-                        "quantity": 0
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364882645310",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502159678",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 20
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707410750",
+            "title": "The Hidden Snowboard",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364882678078",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502323518",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707443518",
+            "title": "The Minimal Snowboard",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364882612542",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502126910",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707476286",
+            "title": "The Archived Snowboard",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364882743614",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502225214",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707509054",
+            "title": "Selling Plans Ski Wax",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364882972990",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502487358",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502126910",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883005758",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502520126",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502159678",
-                    "quantities": [
-                      {
-                        "quantity": 20
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883038526",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502552894",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707541822",
+            "title": "The Collection Snowboard: Hydrogen",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364882710846",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502192446",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707574590",
+            "title": "The Out of Stock Snowboard",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364882776382",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502257982",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707607358",
+            "title": "The Compare at Price Snowboard",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364882809150",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502290750",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707640126",
+            "title": "The Videographer Snowboard",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364883071294",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502585662",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707672894",
+            "title": "Gift Card",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364882841918",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502356286",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502192446",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364882874686",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502389054",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502225214",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364882907454",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502421822",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502257982",
-                    "quantities": [
-                      {
-                        "quantity": 0
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364882940222",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502454590",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 0
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707738430",
+            "title": "The Complete Snowboard",
+            "variants": {
+              "nodes": [
+                {
+                  "id": "gid://shopify/ProductVariant/51364883104062",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502651198",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502290750",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883136830",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502683966",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502323518",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883202366",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502716734",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502356286",
-                    "quantities": [
-                      {
-                        "quantity": 0
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883235134",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502749502",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 },
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502389054",
-                    "quantities": [
-                      {
-                        "quantity": 0
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883267902",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502782270",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 10
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707771198",
+            "title": "The Multi-location Snowboard",
+            "variants": {
+              "nodes": [
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502421822",
-                    "quantities": [
-                      {
-                        "quantity": 0
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883169598",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502618430",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423293246",
+                              "name": "My Custom Location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707803966",
+            "title": "The Collection Snowboard: Oxygen",
+            "variants": {
+              "nodes": [
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502454590",
-                    "quantities": [
-                      {
-                        "quantity": 0
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883300670",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502815038",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707836734",
+            "title": "The Multi-managed Snowboard",
+            "variants": {
+              "nodes": [
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502487358",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883333438",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502847806",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423326014",
+                              "name": "Snow City Warehouse"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707869502",
+            "title": "The 3p Fulfilled Snowboard",
+            "variants": {
+              "nodes": [
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502520126",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883366206",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502880574",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423326014",
+                              "name": "Snow City Warehouse"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 20
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
-                },
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/Product/11815707902270",
+            "title": "The Collection Snowboard: Liquid",
+            "variants": {
+              "nodes": [
                 {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502552894",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502585662",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502618430",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502651198",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502683966",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502716734",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502749502",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502782270",
-                    "quantities": [
-                      {
-                        "quantity": 10
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502815038",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502847806",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
-                  }
-                },
-                {
-                  "node": {
-                    "id": "gid://shopify/InventoryLevel/140883525950?inventory_item_id=53380502946110",
-                    "quantities": [
-                      {
-                        "quantity": 50
-                      }
-                    ]
+                  "id": "gid://shopify/ProductVariant/51364883431742",
+                  "inventoryItem": {
+                    "id": "gid://shopify/InventoryItem/53380502946110",
+                    "inventoryLevels": {
+                      "edges": [
+                        {
+                          "node": {
+                            "location": {
+                              "id": "gid://shopify/Location/104423260478",
+                              "name": "Shop location"
+                            },
+                            "quantities": [
+                              {
+                                "name": "available",
+                                "quantity": 50
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
                   }
                 }
               ]
             }
           }
         }
-      ]
-    }
-  },
-  "extensions": {
-    "cost": {
-      "requestedQueryCost": 277,
-      "actualQueryCost": 12,
-      "throttleStatus": {
-        "maximumAvailable": 2000,
-        "currentlyAvailable": 1982,
-        "restoreRate": 100
+      ],
+      "pageInfo": {
+        "hasNextPage": false
       }
     }
   }

@@ -25,9 +25,6 @@ export const ProductLocations: React.FC<ProductLocationsProps> = ({ productId })
         <View key={index} style={styles.locationContainer}>
           <View style={styles.locationInfo}>
             <Text style={styles.locationName}>{location.name}</Text>
-            <Text style={styles.locationAddress}>
-              {location.city}, {location.country}
-            </Text>
           </View>
           <Text style={styles.quantity}>{location.quantity} in stock</Text>
         </View>
@@ -59,11 +56,6 @@ const styles = StyleSheet.create({
   locationName: {
     fontSize: 16,
     fontWeight: '500',
-  },
-  locationAddress: {
-    fontSize: 14,
-    color: '#666',
-    marginTop: 4,
   },
   quantity: {
     fontSize: 14,

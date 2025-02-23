@@ -3,8 +3,6 @@ import inventoryData from './InventoryData.json';
 
 interface Location {
   name: string;
-  city: string;
-  country: string;
   quantity: number;
 }
 
@@ -12,23 +10,39 @@ export const useInventoryLocations = (productId: string) => {
   const getLocations = useCallback((): Location[] => {
     const locations: Location[] = [];
     
-    inventoryData.data.locations.edges.forEach(locationEdge => {
-      const location = locationEdge.node;
-      
-      // Check inventory levels at this location
-      const inventoryMatch = location.inventoryLevels.edges.find(edge => 
-        edge.node.id.includes(productId)
-      );
+    // Find the product in the data
+    const product = inventoryData.data.products.edges.find(edge => 
+      edge.node.id === productId
+    );
 
-      if (inventoryMatch && inventoryMatch.node.quantities[0].quantity > 0) {
-        locations.push({
-          name: location.name,
-          city: location.address.city,
-          country: location.address.country,
-          quantity: inventoryMatch.node.quantities[0].quantity
+    if (product) {
+      // Get inventory levels for each variant
+      product.node.variants.nodes.forEach(variant => {
+        variant.inventoryItem.inventoryLevels.edges.forEach(edge => {
+          const locationData = edge.node;
+          const quantity = locationData.quantities[0].quantity;
+
+          // Only add locations with available inventory
+          if (quantity > 0) {
+            // Check if location already exists in array
+            const existingLocation = locations.find(loc => 
+              loc.name === locationData.location.name
+            );
+
+            if (existingLocation) {
+              // Add quantities if location exists
+              existingLocation.quantity += quantity;
+            } else {
+              // Add new location if it doesn't exist
+              locations.push({
+                name: locationData.location.name,
+                quantity: quantity
+              });
+            }
+          }
         });
-      }
-    });
+      });
+    }
 
     return locations;
   }, [productId]);
