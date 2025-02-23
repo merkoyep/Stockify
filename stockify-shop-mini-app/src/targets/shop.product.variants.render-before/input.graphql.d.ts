@@ -16,11 +16,18 @@ export namespace ProductVariantsRenderBeforeQueryPartialData {
     __typename?: "ProductVariantConnection" | null;
     nodes?: (ProductVariantsRenderBeforeQueryPartialData.ProductVariantsNodes | null)[] | null;
   }
+  export interface ProductOptions {
+    __typename?: "ProductOption" | null;
+    id?: string | null;
+    name?: string | null;
+    values?: (string | null)[] | null;
+  }
   export interface Product {
     __typename?: "Product" | null;
     id?: string | null;
     title?: string | null;
     variants?: ProductVariantsRenderBeforeQueryPartialData.ProductVariants | null;
+    options?: (ProductVariantsRenderBeforeQueryPartialData.ProductOptions | null)[] | null;
   }
   export interface Shop {
     __typename?: "Shop" | null;
@@ -47,11 +54,18 @@ export namespace ProductVariantsRenderBeforeQueryData {
     __typename: "ProductVariantConnection";
     nodes: ProductVariantsRenderBeforeQueryData.ProductVariantsNodes[];
   }
+  export interface ProductOptions {
+    __typename: "ProductOption";
+    id: string;
+    name: string;
+    values: string[];
+  }
   export interface Product {
     __typename: "Product";
     id: string;
     title: string;
     variants: ProductVariantsRenderBeforeQueryData.ProductVariants;
+    options: ProductVariantsRenderBeforeQueryData.ProductOptions[];
   }
   export interface Shop {
     __typename: "Shop";
